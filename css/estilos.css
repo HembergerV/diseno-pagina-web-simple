@@ -294,7 +294,12 @@ body{
     margin: 15px 50px;
 }
 
-.footer .enlaces a{
+.footer .enlaces div{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer .enlaces div a{
     font-size: 13px;
     display: block;
     color: white;
@@ -306,7 +311,9 @@ body{
     font-weight: bold;
 }
 
-
+.footer .enlaces:nth-child(2) a{
+    margin 1px;
+}
 
 
 
