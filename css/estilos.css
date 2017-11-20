@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header .contenedor{
+    display: flex;
+    background: rgba(0,0,0,0.3);
+    height: 70px
+}
+
+.img_logo{
+    width: 105px;
+    margin-left: 50px;
+    margin-top: 5px
+}
+
+
+.menu{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    padding-left: 15px;
+    margin-left: 330px;
+}
+
+.menu_item{
+    background: none;
+    font-size: 14px;
+}
+
+.menu_link{
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    line-height: 40px
+}
+
+.login .menu_link {
+    background: rgb(255,60,70);
+    color: rgb(10,165,440)
+}
+
+.login .menu_link:hover {
+    color: white;
+    background: rgb(255,60,70);
+}
+
+.register .menu_link {
+    background: rgb(10,165,440);
+    color: rgb(255,60,70)
+}
+
+.register .menu_link:hover {
+    background: rgb(10,165,440);
+    color: white
+}
+
+.menu_link:hover{
+    color: rgb(255,60,70);
+    background: none;
+}
+
+/*--------------------------Banner--------------------------*/
+
+.banner{
+    position: relative;
+    z-index: -1000;
+    top: -80px;
+}
+
+.img_banner{
+    width: 100%;    
+    display: block;
+}
+
+.descript_banner{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translateX(-50%) translateY(-50%);
+    width: 70%;
+    text-align: center;
+    color: white;
+}
+
+.titulo_banner{
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+
+.txt_banner{
+    font-size: 25px;
+}
+
+
+/*--------------------------Boton--------------------------*/
+.boton{
+    position: absolute;
+    background: white;
+    padding: 10px 25px;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+}
+
+.boton .txt_boton{
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*--------------------------secciones--------------------------*/
+
+.section{
+    display: flex;
+    position:absolute;
+    top: 81%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.ind{
+    display: flex;
+    padding: 10px 15px;
+    height: 90px;
+    width: 300px;
+    text-align: center;
+}
+
+.cuadro{
+    text-decoration: none;
+}
+
+.header [class ^= icon-]{
+    font-size: 60px;
+    color: white;
+} 
+
+.txt_ind{
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.cuadro:nth-child(1){
+    background: rgb(70,200,60);
+}
+
+.cuadro:nth-child(2){
+    background: rgb(10,140,150) ;
+}
+
+.cuadro:nth-child(3){
+    background: orange;
+}
+
+
+/*--------------------------secciones--------------------------*/
+.section_info:nth-child(2) .cuadro_info{
+    background: green;
+    float: left;
+    left: 0px;
+    width: 50%;
+}
+
+.section_info:nth-child(2) .img_info{
+    float: right;
+}
+
+.section_info{
+    margin-top: -40px;
+    margin-bottom: 60px;
+}
+.titulo_info{
+    margin-bottom:25px;
+    text-align: center;
+    color: brown
+}
+.section_info .contenedor{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    display: table;
+}
+.img_info{
+    width: 70%;
+    z-index: -1000;
+    position: relative;
+    float: left;
+}
+.section_info  .cuadro_info{
+    font-size: 18px;
+    position: absolute;
+    padding: 25px 20px;
+    top: 0px;
+    left: 50%;
+    height: 100%;
+    background: rgb(255,87,30);
+    color: white;
+    line-height: 30px;
+    float: right;
+}
+.section_info .menu_info{
+    margin-top: 15px;
+}
+.section_info .btn_signup{
+    margin: 40px;
+    display: block;
+    text-align: center;
+    background: none;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    border-color: white;
+    color: white;
+    border-style: solid;
+    border-radius: 40px;
+    line-height: 45px;
+    transition: all 0.2s;
+}
+
+.section_info .btn_signup:hover{
+    color: rgb(255,87,30);
+    background: white;
+}
+
+.section_info:nth-child(2) .btn_signup:hover{
+    color: green;
+    background: white;
+}
+
+/*--------------------------footer--------------------------*/
+.footer{
+    margin-top: 30px;
+    height: 150px;
+    background: rgb(51,51,51);
+    
+}
+
+.footer .social{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social [class^="icon-"]{
+    display: inline-block;
+    color: white;
+    background: none;
+    text-decoration: none;
+    font-size: 20px;;
+    margin: 0 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    line-height: 35px;
+    border:2px solid white;
+    transition: all 0.2s;
+}
+
+.social [class^="icon-"]:hover{
+    background: white;
+    color: rgb(51,51,51);
+    
+}
+    
+.footer .copy{
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-top: 100px
+}
+
+.footer .enlaces{
+    position: absolute;
+    margin: 15px 50px;
+}
+
+.footer .enlaces a{
+    font-size: 13px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px
+}
+
+.footer .enlaces a:hover{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
