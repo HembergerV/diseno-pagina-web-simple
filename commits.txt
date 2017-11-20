@@ -1,0 +1,17 @@
+commit ef27c0c714f64cae26ef60b192eaf471c86c8cd3
+Author: Hemberger Vasquez <hembergervasquez@gmail.com>
+Date:   Mon Nov 20 15:33:53 2017 -0400
+
+    Se agrego una tercera columna de enlaces al footer
+
+commit 165146f232a6003b0145548b189ff574cb9a52f0
+Author: Hemberger Vasquez <hembergervasquez@gmail.com>
+Date:   Mon Nov 20 15:32:04 2017 -0400
+
+    Se agrego otra lista de enlaces al footer
+
+commit 9aedd8823dfab5886e9bf30d35bc6c6157201f0f
+Author: Hemberger Vasquez <hembergervasquez@gmail.com>
+Date:   Mon Nov 20 15:13:29 2017 -0400
+
+    Inicializamos
